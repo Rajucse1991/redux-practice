@@ -56,7 +56,7 @@ const Api = () => {
 
   return (
     <div>
-      <h1>List Items</h1>
+      <h1>These are list Items</h1>
       <ul>
         {posts && posts.map((item, index) => <li key={index}>{item.title}</li>)}
       </ul>
